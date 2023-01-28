@@ -6,6 +6,35 @@ The data is a subset of data currently stored in a data warehouse of recorded in
  [Data File](OurData.xlsx)
  # Data Warehouse
 1. Which make of vehicle takes longer to be invoiced when being serviced? 
-2. Which makes of vehicle go through several tests before the invoice can be paid?
+2. Which make of vehicle go through several tests before the invoice can be paid?
 3. Which insurance company takes longer to process invoices? 
 4. Which insurance companies go through multiple processes before accepting an invoice?
+
+# Dimensions
+
++ Dim_Date : 
+  - Date_Key
+  - Full_Date : Claim Creation Date
+  - Year
+  - Month
+  - Day
++ Dim_Outlet:
+  - Outlet_Key
+  - Nom : Outlet Name
+  - Type : Type of Outlet
+  - City : The City where the outlet is situated
+  - Province : The province/state where the outlet is situated
++ Dim_Vehicle :
+  - VE_Key
+  - Claim_Vehicle_Year : The year the vehicle was introduced
+  - Claim_Vehicle_Make : The make of the vehicle being serviced
+  - Claim_Vehicle_Model : The model of the vehicle being serviced
++ Dim_Assu :
+  - Assu_Key
+  - Nom : Insurance Company Name
++ Dim_Status
+  - Stat_Key
+  - Current_Status : Current Claim Status
+  - Current_SubStatus : Current Claim Sub status
+ 
+ [Star Schema](Star-Schema.PNG)
