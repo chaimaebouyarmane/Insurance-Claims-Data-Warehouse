@@ -37,4 +37,4 @@ The data is a subset of data currently stored in a data warehouse of recorded in
   - Current_Status : Current Claim Status
   - Current_SubStatus : Current Claim Sub status
  
- [Star Schema](Star-Schema.PNG)
+ [Star Schema](star_schema.PNG)
