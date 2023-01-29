@@ -59,13 +59,18 @@ spent
  # Implementation
  ## Loading data
  + We loaded our Excel file into a database
+ 
  ![Load Data](img/Capture1.PNG)
 ## Dimensions
 + We used COUT_SOURCE as the data source.
 + tUniqRow to eliminate data redundancy.
 + Tmap to map our data.
 + BD_DW as destination.
+
+
 ![Dim_Date](img/Capture3.PNG)
+
+
 ![Dim_Date](img/Capture14.PNG)
 + **we did the same for the other dimensions.**
 ## Fact table
@@ -73,7 +78,13 @@ spent
 ![Fact_table](img/Capture.PNG)
 + We did a groupBy Claim_id and we calculated the sum and count of all rows.
 ![Fact_table](img/Capture16.PNG)
+
++ Fact table
+
+
 ![Fact_table](img/Capture7.PNG)
+
+
 ![Fact_table](img/Capture15.PNG)
 # Visualization
 ![outlet](img/Capture111.PNG)
@@ -81,7 +92,7 @@ spent
 ![assurance](img/Capture333.PNG)
 ![assurance](img/Capture444.PNG)
 ![véhicule](img/Capture555.PNG)
-1[véhicule](img/Capture666.PNG)
+![véhicule](img/Capture666.PNG)
  
 
  
