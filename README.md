@@ -59,29 +59,29 @@ spent
  # Implementation
  ## Loading data
  + We loaded our Excel file into a database
- [Load Data](Capture1.PNG)
+ ![Load Data](Capture1.PNG)
 ## Dimensions
 + We used COUT_SOURCE as the data source.
 + tUniqRow to eliminate data redundancy.
 + Tmap to map our data.
 + BD_DW as destination.
-[Dim_Date](Capture3.PNG)
-[Dim_Date](Capture14.PNG)
+![Dim_Date](Capture3.PNG)
+![Dim_Date](Capture14.PNG)
 + **we did the same for the other dimensions.**
 ## Fact table
 + Before creating the fact table, we created an INFO_DATA table which contains columns that will help us for the creation of this table
-[Fact_table](Capture.PNG)
+![Fact_table](Capture.PNG)
 + We did a groupBy Claim_id and we calculated the sum and count of all rows.
-[Fact_table](Capture16.PNG)
-[Fact_table](Capture7.PNG)
-[Fact_table](Capture15.PNG)
+![Fact_table](Capture16.PNG)
+![Fact_table](Capture7.PNG)
+![Fact_table](Capture15.PNG)
 # Visualization
-[outlet](Capture111.PNG)
-[outlet](Capture222.PNG)
-[assurance](Capture333.PNG)
-[assurance](Capture444.PNG)
-[véhicule](Capture555.PNG)
-[véhicule](Capture666.PNG)
+![outlet](Capture111.PNG)
+![outlet](Capture222.PNG)
+![assurance](Capture333.PNG)
+![assurance](Capture444.PNG)
+![véhicule](Capture555.PNG)
+1[véhicule](Capture666.PNG)
  
 
  
