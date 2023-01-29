@@ -56,6 +56,8 @@ spent
  + Oracle sql developer
  + Talend : ETL
  + Power BI : Data Visualisation
+ # Usage Instructions
+ + Import the "project" file into Talend
  # Implementation
  ## Loading data
  + We loaded our Excel file into a database
