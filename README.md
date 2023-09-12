@@ -94,8 +94,9 @@ spent
 ![assurance](img/Capture333.PNG)
 ![assurance](img/Capture444.PNG)
 ![véhicule](img/Capture555.PNG)
+![véhicule](img/Capture666.PNG)
 
-## Contact :busts_in_silhouette:
+# Contact :busts_in_silhouette:
 Feel free to reach out to us if you have any questions or suggestions:
 
 **Chaimae BOUYARMANE**
@@ -104,7 +105,7 @@ Feel free to reach out to us if you have any questions or suggestions:
 <a href="https://github.com/chaimaebouyarmane" target="_blank">
   <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="Votre nom" height="30" width="40" />
 </a>
-![véhicule](img/Capture666.PNG)
+
  
 
  
